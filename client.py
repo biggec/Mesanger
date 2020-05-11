@@ -3,7 +3,7 @@ import json
 from threading import Thread
 
 
-ip = '127.0.0.1'
+ip = '194.87.238.112'
 client = goto_network.Client(ip, 9090)
 connection = client.connection
 name = str(input('Введите Имя: '))
