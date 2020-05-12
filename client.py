@@ -6,8 +6,8 @@ from threading import Thread
 ip = '194.87.238.112'
 client = goto_network.Client(ip, 9090)
 connection = client.connection
+print('SERVER: /msg имя текст ---> для того чтобы писать в лс')
 name = str(input('Введите Имя: '))
-print('SERVER: /msg имя текст для того чтобы писать в лс')
 con_things = 0
 Commands = []
 
